@@ -1,0 +1,57 @@
+body {
+    background: url(/order-sum/images/pattern-background-desktop.svg) no-repeat;
+    background-color: #e0e8ff;
+}
+.main {
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    width: 450px;
+    height: 555px;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 20px;
+}
+.content, .sub, .submit {
+    text-align: center;
+    text-justify: kashida;
+}
+h2, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sub {
+    background: url(/order-sum/images/icon-music.svg)no-repeat left;
+    border:1px solid;
+    width: 235px;
+    height: 60px;
+    background-color: #f8f9fe;
+    margin-left: 17%;
+    padding-left: 15%;
+    line-height: 25px;
+    border-radius: 10px;
+    border-color: #f8f9fe;
+    text-align: justify;
+}
+.amount {
+    text-align: right;
+    padding-left: 30px;
+}
+.submit [type=submit] {
+    margin-top: 30px;
+    background-color: #6c77f1;
+    color: whitesmoke;
+    border-radius: 10px;
+    border-color: rgb(108, 119, 241);
+    width: 300px;
+    height: 45px;
+    box-shadow: 0px 0px 10px 0px rgba(108, 119, 241, 0.6);
+    font-size: 16px;
+}
+.amount {
+    text-decoration: underline;
+    color: #6c77f1;
+    float: right;
+    padding-right: 10px;
+}
+p {
+     @import url();   
+}

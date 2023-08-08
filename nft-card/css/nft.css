@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(11, 27, 48);
+}
+.nft-card {
+    box-sizing: border-box;
+    width: 490px;
+    border: 20px solid rgb(22, 48, 84);
+    background-color: rgb(22, 48, 84);
+    border-radius: 20px;
+    margin-left: 35%;
+}
+hr {
+    border-color: steelblue;
+    width: 430px;
+}
+.left {
+    padding-left: 270px;
+    background: url(/nft-card/images/icon-clock.svg) no-repeat 248px;
+}
+.two {
+    background: url(/nft-card/images/icon-ethereum.svg) no-repeat;
+    padding-left: 20px;
+}
+.pro {
+    background: url(/nft-card/images/image-avatar.png) no-repeat; background-size: 40px;
+    padding-bottom: 11px; box-sizing: content-box;
+    padding-left: 50px;
+    padding-top: 9px;
+}
+
+
+
+

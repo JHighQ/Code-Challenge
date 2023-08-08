@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+}
+.box {
+    background-color: white;
+    display: block;
+    width: 35%;
+    margin: 10% 32%;
+}
+h5, h2, p, h1 {
+    padding: 5px 10px;
+    max-width: 100%;
+    margin: 10px 10px;
+}
+h5 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    color: rgb(152, 137, 137);
+}
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(71, 92, 83);
+    word-spacing: 1px;
+    font-size: medium;
+    line-height: 24px;
+}
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: green;
+    padding-top: 15px;
+}
+input {
+    border-radius: 8px;
+    width:70%;
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(7, 105, 53);
+    font: x-large; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: large;
+    border-color: green;
+}
+input[type="submit"]{
+    background: url(/Product-card/Images/icon-cart.svg) no-repeat;
+    background-color: green;
+    background-position: 110px;
+    background-size: 0.9em;
+}
